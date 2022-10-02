@@ -1,0 +1,65 @@
+html{ 
+    background-color: #f1f1f1;
+    margin:-11px;
+}
+
+body{
+    background: #f1f1f1;
+    margin: 10%;
+}
+#container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+}
+/* Bordure */
+form.top_form {
+    width:110%;
+    padding: 0px;
+    border: 0px solid #f1f1f1;
+    background: #fff;
+}
+
+form:not(.top_form) {
+    width:100%;
+    padding: 30px;
+    border: 0px solid #f1f1f1;
+    background: #f1f1f1;
+}
+
+
+/* Mise en page */
+input[type = text], input[type=password] {
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background:#ddd;
+}
+
+/* apparence des boutons*/
+.top_button {
+    background-color: #53af57;
+    color: white;
+    padding: 30px;
+    margin: 0 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.top_button:hover {
+    background-color: #4b9b4f;
+}
+
+input[type = submit]:not(.top_button) {
+    background-color: lightblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+}
